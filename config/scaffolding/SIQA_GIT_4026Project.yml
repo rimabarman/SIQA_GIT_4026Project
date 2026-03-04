@@ -7,3 +7,36 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_git_4026.integrations:Sum
+  packages:
+  - name: SIQA_GIT_4026Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
+- serviceName: project.siqa_git_4026.integrations:deepclonetest
+  packages:
+  - name: SIQA_GIT_4026Project
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.796
